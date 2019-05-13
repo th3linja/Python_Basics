@@ -8,7 +8,7 @@ while travel.isdigit() is False or int(travel) < 0:  # check for valid input
     travel = input("Please enter a valid input: ")
 mph = input("Enter the average mph of the trip: ")
 while mph.isdigit() is False or int(mph) <= 0:  # check for valid input (cannot divide by 0)
-    mph = input("Please enter a valid input:")
+    mph = input("Please enter a valid input: ")
 print()
 
 # calculate based on given information
